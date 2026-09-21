@@ -4,7 +4,7 @@ page :
     3. Beranda
 
 main color : 
-  /* BRAND */
+{  /* BRAND */
   --color-primary: #E50914;
   --color-primary-hover: #B20710;
   --color-primary-active: #8F060D;
