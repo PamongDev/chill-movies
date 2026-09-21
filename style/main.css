@@ -1,0 +1,28 @@
+:root {
+  /* BRAND */
+  --color-primary: #E50914;
+  --color-primary-hover: #B20710;
+  --color-primary-active: #8F060D;
+
+  /* BACKGROUND */
+  --color-bg: #080808;
+  --color-bg-secondary: #111111;
+  --color-bg-tertiary: #181818;
+
+  /* CARD */
+  --color-card: #181818;
+  --color-card-hover: #242424;
+
+  /* TEXT */
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #B3B3B3;
+  --color-text-muted: #737373;
+
+  /* BORDER */
+  --color-border: #2A2A2A;
+
+  /* STATUS */
+  --color-success: #46D369;
+  --color-warning: #F5C518;
+  --color-info: #3B82F6;
+}
