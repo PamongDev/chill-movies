@@ -1,83 +1,87 @@
 {
     "movies": [
         {
-            "movie-id": "", 
+            "movie_id": "",
             "title": "",
             "metadata": {
-                "sinopsis": "",
-                "year-release": "",
-                "durasi": "Sci-Fi",
-                "age-rate": "",
+                "synopsis": "",
+                "year_release": "",
+                "duration_minutes": "",
+                "age_rate": "",
                 "language": "",
                 "country": ""
             },
-            "category-data": {
-                "content-type": "",
+            "category_data": {
+                "content_type": "Movie",
                 "genre": [""],
                 "tags": [""]
             },
-            "media-data": {
-                "url-poster": "",
-                "url-trailer": "",
-                "url-video": ""
+            "media_data": {
+                "url_poster": "",
+                "url_trailer": "",
+                "url_video": ""
             },
-            "cast-data": {
-                "director": "",
-                "writer": "",
-                "cast": {"actrees": "actor"}
+            "cast_data": {
+                "director": [""],
+                "writer": [""],
+                "cast": [
+                    { "actor": "", "character": "" },
+                    { "actor": "", "character": "" }
+                ]
             }
-
-
-
         }
-
     ],
     "series": [
         {
-            "series-id": "", 
+            "series_id": "",
             "title": "",
             "metadata": {
-                "sinopsis": "",
-                "year-release": "",
-                "durasi": "",
-                "age-rate": "",
+                "synopsis": "",
+                "year_release": "",
+                "age_rate": "",
                 "status": "",
                 "language": "",
                 "country": ""
             },
-            "category-data": {
-                "content-type": "",
+            "category_data": {
+                "content_type": "",
                 "genre": [""],
                 "tags": [""]
             },
-            "media-data": {
-                "url-poster": "",
-                "url-trailer": ""
+            "media_data": {
+                "url_poster": "",
+                "url_trailer": ""
             },
-            "cast-data": {
-                "creator": "",
-                "writer": "",
-                "cast": {"actrees": "actor"}
+            "cast_data": {
+                "creator": [""],
+                "writer": [""],
+                "cast": [
+                    { "actor": "", "character": "" },
+                    { "actor": "", "character": "" }
+                ]
             },
-            "season-data": {
-                "season-id": "",
-                "season-number": "",
-                "season-title": "",
-                "season-date-release": "",
-                "season-sinopsis": "",
-                "season-poster": ""
-            },
-            "episode-data": {
-                "episode-id": "",
-                "season-id": "",
-                "episode-number": "",
-                "episode-title": "",
-                "episode-date-release": "",
-                "episode-sinopsis": "",
-                "episode-duration": "",
-                "episode-url-video": "",
-                "episode-thumbnail": ""
-            }
+            "seasons": [
+                {
+                    "season_id": "",
+                    "season_number": "",
+                    "title": "",
+                    "date_release": "",
+                    "synopsis": "",
+                    "url_poster": "",
+                    "episodes": [
+                        {
+                            "episode_id": "",
+                            "episode_number": "",
+                            "title": "",
+                            "date_release": "",
+                            "synopsis": "",
+                            "duration_minutes": "",
+                            "url_thumbnail": "",
+                            "url_video": ""
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

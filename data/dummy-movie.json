@@ -1,0 +1,57 @@
+{
+    "movies": [
+        {
+            "id": "",
+            "title": "",
+            "synopsis": "",
+            "year": "",
+            "duration": "",
+            "genre": [""],
+            "thumbnail": "",
+            "video_url": ""
+        },
+        {
+            "id": "",
+            "title": "",
+            "synopsis": "",
+            "year": "",
+            "duration": "n",
+            "genre": [""],
+            "thumbnail": "",
+            "video_url": ""
+        }
+    ],
+    "series": [
+        {
+            "id": "",
+            "title": "",
+            "synopsis": "",
+            "year": "",
+            "genre": [""],
+            "thumbnail": "",
+            "seasons": [
+                {
+                    "season_number": 1,
+                    "episodes": [
+                        {
+                            "id": "",
+                            "episode_number": "",
+                            "title": "",
+                            "duration": "",
+                            "thumbnail": "",
+                            "video_url": ""
+                        },
+                        {
+                            "id": "",
+                            "episode_number": "",
+                            "title": "",
+                            "duration": "",
+                            "thumbnail": "",
+                            "video_url": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
