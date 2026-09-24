@@ -1,0 +1,83 @@
+{
+    "movies": [
+        {
+            "movie-id": "", 
+            "title": "",
+            "metadata": {
+                "sinopsis": "",
+                "year-release": "",
+                "durasi": "Sci-Fi",
+                "age-rate": "",
+                "language": "",
+                "country": ""
+            },
+            "category-data": {
+                "content-type": "",
+                "genre": [""],
+                "tags": [""]
+            },
+            "media-data": {
+                "url-poster": "",
+                "url-trailer": "",
+                "url-video": ""
+            },
+            "cast-data": {
+                "director": "",
+                "writer": "",
+                "cast": {"actrees": "actor"}
+            }
+
+
+
+        }
+
+    ],
+    "series": [
+        {
+            "series-id": "", 
+            "title": "",
+            "metadata": {
+                "sinopsis": "",
+                "year-release": "",
+                "durasi": "",
+                "age-rate": "",
+                "status": "",
+                "language": "",
+                "country": ""
+            },
+            "category-data": {
+                "content-type": "",
+                "genre": [""],
+                "tags": [""]
+            },
+            "media-data": {
+                "url-poster": "",
+                "url-trailer": ""
+            },
+            "cast-data": {
+                "creator": "",
+                "writer": "",
+                "cast": {"actrees": "actor"}
+            },
+            "season-data": {
+                "season-id": "",
+                "season-number": "",
+                "season-title": "",
+                "season-date-release": "",
+                "season-sinopsis": "",
+                "season-poster": ""
+            },
+            "episode-data": {
+                "episode-id": "",
+                "season-id": "",
+                "episode-number": "",
+                "episode-title": "",
+                "episode-date-release": "",
+                "episode-sinopsis": "",
+                "episode-duration": "",
+                "episode-url-video": "",
+                "episode-thumbnail": ""
+            }
+        }
+    ]
+}
