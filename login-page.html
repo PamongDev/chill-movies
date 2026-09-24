@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill Login</title>
+
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+
+<body>
+    <div class="page">
+
+        <main class="auth-main">
+            <section class="login-card">
+
+                <!-- =========================
+                     WELCOME PANEL
+                ========================== -->
+                <div class="login-welcome">
+                    <div class="welcome-content">
+                        <!-- Brand -->
+                        <img
+                            src="assets/images/logo only no bg.png"
+                            alt="Chill"
+                            class="welcome-logo"
+                        >
+                        <br>
+                        <h1>
+                            Welcome to
+                            <span>Your Cinema</span>
+                        </h1>
+                        <p>
+                            Your place to relax, discover,
+                            and enjoy your favorite content.
+                        </p>
+                    </div>
+                    <div class="welcome-footer">
+                        <span>Relax. Watch. Enjoy.</span>
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     LOGIN FORM PANEL
+                ========================== -->
+                <div class="login-form-panel">
+
+                    <div class="form-header">
+                        <h2>Sign in</h2>
+                        <p>Enter your account details to continue.</p>
+                    </div>
+
+
+                    <form action="/login" method="post" class="login-form">
+
+                        <!-- Username -->
+                        <div class="form-group">
+                            <label for="username">
+                                Username
+                            </label>
+
+                            <input
+                                type="text"
+                                id="username"
+                                name="username"
+                                placeholder="Enter your username"
+                                autocomplete="username"
+                                required
+                            >
+                        </div>
+
+
+                        <!-- Password -->
+                        <div class="form-group">
+                            <div class="password-label">
+                                <label for="password">
+                                    Password
+                                </label>
+
+                                <a href="forgot-password.html" class="forgot-link">
+                                    Forgot password?
+                                </a>
+                            </div>
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Enter your password"
+                                autocomplete="current-password"
+                                required
+                            >
+                        </div>
+
+
+                        <!-- Main Button -->
+                        <button
+                            type="submit"
+                            class="btn btn-primary"
+                        >
+                            Login
+                        </button>
+
+
+                        <!-- Divider -->
+                        <div class="form-divider">
+                            <span>OR</span>
+                        </div>
+
+
+                        <!-- Google -->
+                        <button
+                            type="button"
+                            class="btn btn-google"
+                        >
+                            <span class="google-icon">G</span>
+                            Continue with Google
+                        </button>
+
+
+                        <!-- Register -->
+                        <p class="register-text">
+                            Don't have an account?
+                            <a href="register-page.html">
+                                Create an account
+                            </a>
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </section>
+        </main>
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+        <footer class="auth-footer">
+            <p>
+                &copy; 2026 Chill. All rights reserved.
+            </p>
+        </footer>
+
+    </div>
+</body>
+</html>

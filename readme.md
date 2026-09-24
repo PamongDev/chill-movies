@@ -1,33 +1,24 @@
 page :
     1. Login
+        a. logo chill
+        b. form username dan password
+        c. link lupa password
+        d. link daftar
+        e. masuk dengan google
+        f. background
     2. Register
+        a. logo chill
+        b. form username , password, konfirmasi password
+        c. link sudah punya akun, masuk
+        d. daftar dan sso  with google
     3. Beranda
-
-main color : 
-{  /* BRAND */
-  --color-primary: #E50914;
-  --color-primary-hover: #B20710;
-  --color-primary-active: #8F060D;
-
-  /* BACKGROUND */
-  --color-bg: #080808;
-  --color-bg-secondary: #111111;
-  --color-bg-tertiary: #181818;
-
-  /* CARD */
-  --color-card: #181818;
-  --color-card-hover: #242424;
-
-  /* TEXT */
-  --color-text-primary: #F5F5F5;
-  --color-text-secondary: #B3B3B3;
-  --color-text-muted: #737373;
-
-  /* BORDER */
-  --color-border: #2A2A2A;
-
-  /* STATUS */
-  --color-success: #46D369;
-  --color-warning: #F5C518;
-  --color-info: #3B82F6;
-}
+        a. header
+            - logo chill
+            - avatar profil
+            - navigation series, film, daftar saya
+        b. mainpage
+            - hero section preview film, button mulai, button selengkapnya, siap untuk nonton, user control volume
+            - melanjutkan nonton film
+            - top rating film dan series hari ini
+            - film trending
+            - recent add atau rilis terbaru
