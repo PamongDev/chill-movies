@@ -1,53 +1,397 @@
 {
     "movies": [
         {
-            "id": "",
-            "title": "",
-            "synopsis": "",
-            "year": "",
-            "duration": "",
-            "genre": [""],
-            "thumbnail": "",
-            "video_url": ""
+            "id": "m-001",
+            "title": "Dune: Part Two",
+            "synopsis": "Paul Atreides bersatu dengan Fremen untuk membalas dendam pada konspirator yang menghancurkan keluarganya.",
+            "year": 2024,
+            "duration": "166 min",
+            "genre": ["Action", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Dune+2",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
         },
         {
-            "id": "",
-            "title": "",
-            "synopsis": "",
-            "year": "",
-            "duration": "n",
-            "genre": [""],
-            "thumbnail": "",
-            "video_url": ""
+            "id": "m-002",
+            "title": "Deadpool & Wolverine",
+            "synopsis": "Deadpool menarik Wolverine dari masa pensiunnya untuk menyelamatkan semesta dari ancaman baru.",
+            "year": 2024,
+            "duration": "127 min",
+            "genre": ["Action", "Comedy"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Deadpool+Wolverine",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-003",
+            "title": "Inside Out 2",
+            "synopsis": "Riley yang beranjak remaja kini menghadapi emosi-emosi baru, termasuk Anxiety dan Envy.",
+            "year": 2024,
+            "duration": "96 min",
+            "genre": ["Cartoon", "Comedy"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Inside+Out+2",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-004",
+            "title": "A Quiet Place: Day One",
+            "synopsis": "Kisah awal mula invasi alien bersuara sensitif di tengah kekacauan kota New York.",
+            "year": 2024,
+            "duration": "100 min",
+            "genre": ["Horror", "Action"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=A+Quiet+Place",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-005",
+            "title": "Gladiator II",
+            "synopsis": "Bertahun-tahun setelah kematian Maximus, Lucius memasuki arena Colosseum untuk melawan kekaisaran.",
+            "year": 2024,
+            "duration": "150 min",
+            "genre": ["Action", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Gladiator+II",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-006",
+            "title": "Kung Fu Panda 4",
+            "synopsis": "Po harus melatih Dragon Warrior baru sambil menghadapi musuh yang bisa meniru semua jurus masa lalunya.",
+            "year": 2024,
+            "duration": "94 min",
+            "genre": ["Cartoon", "Comedy", "Action"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Kung+Fu+Panda+4",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-007",
+            "title": "Smile 2",
+            "synopsis": "Seorang bintang pop global mulai mengalami teror senyuman mematikan menjelang tur dunianya.",
+            "year": 2024,
+            "duration": "115 min",
+            "genre": ["Horror"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Smile+2",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-008",
+            "title": "The Fall Guy",
+            "synopsis": "Seorang stuntman harus mencari aktor utama yang hilang demi menyelamatkan film sutradara mantan kekasihnya.",
+            "year": 2024,
+            "duration": "126 min",
+            "genre": ["Action", "Comedy"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=The+Fall+Guy",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-009",
+            "title": "Oppenheimer",
+            "synopsis": "Kisah J. Robert Oppenheimer dan perannya dalam pengembangan bom atom selama Perang Dunia II.",
+            "year": 2023,
+            "duration": "180 min",
+            "genre": ["Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Oppenheimer",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-010",
+            "title": "Longlegs",
+            "synopsis": "Seorang agen FBI muda menyelidiki kasus pembunuh berantai mematikan yang melibatkan ilmu gaib.",
+            "year": 2024,
+            "duration": "101 min",
+            "genre": ["Horror", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Longlegs",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-011",
+            "title": "Despicable Me 4",
+            "synopsis": "Gru dan keluarganya menyambut anggota baru sambil melarikan diri dari penjahat bernama Maxime Le Mal.",
+            "year": 2024,
+            "duration": "95 min",
+            "genre": ["Cartoon", "Comedy"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Despicable+Me+4",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-012",
+            "title": "John Wick: Chapter 4",
+            "synopsis": "John Wick mengungkap jalan untuk mengalahkan High Table demi mendapatkan kembali kebebasannya.",
+            "year": 2023,
+            "duration": "169 min",
+            "genre": ["Action"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=John+Wick+4",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-013",
+            "title": "The Batman Part II",
+            "synopsis": "Bruce Wayne kembali menghadapi kekacauan di Gotham dari ancaman villain baru.",
+            "year": 2026,
+            "duration": "145 min",
+            "genre": ["Action", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=The+Batman+II",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-014",
+            "title": "Abigail",
+            "synopsis": "Sekelompok penculik menyadari bahwa anak perempuan yang mereka culik adalah vampir haus darah.",
+            "year": 2024,
+            "duration": "109 min",
+            "genre": ["Horror", "Comedy"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Abigail",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-015",
+            "title": "Moana 2",
+            "synopsis": "Moana melakukan perjalanan epik ke perairan berbahaya di Oseania setelah mendapat panggilan dari leluhurnya.",
+            "year": 2024,
+            "duration": "100 min",
+            "genre": ["Cartoon", "Action"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Moana+2",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-016",
+            "title": "Bad Boys: Ride or Die",
+            "synopsis": "Mike dan Marcus kini menjadi buronan saat mencoba membersihkan nama mendiang kapten mereka.",
+            "year": 2024,
+            "duration": "115 min",
+            "genre": ["Action", "Comedy"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Bad+Boys+4",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-017",
+            "title": "The Conjuring: Last Rites",
+            "synopsis": "Kasus supranatural terakhir yang dihadapi oleh pasangan penyelidik paranormal Ed dan Lorraine Warren.",
+            "year": 2025,
+            "duration": "118 min",
+            "genre": ["Horror", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Conjuring+4",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-018",
+            "title": "Toy Story 5",
+            "synopsis": "Woody dan Buzz kembali untuk petualangan baru di era teknologi modern.",
+            "year": 2026,
+            "duration": "95 min",
+            "genre": ["Cartoon", "Comedy"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Toy+Story+5",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-019",
+            "title": "Mission: Impossible - Dead Reckoning",
+            "synopsis": "Ethan Hunt berlomba melawan waktu untuk mencegah senjata AI berbahaya jatuh ke tangan yang salah.",
+            "year": 2023,
+            "duration": "163 min",
+            "genre": ["Action"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Mission+Impossible",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+        },
+        {
+            "id": "m-020",
+            "title": "Anyone But You",
+            "synopsis": "Dua orang yang saling membenci berpura-pura menjadi pasangan di acara pernikahan di Australia.",
+            "year": 2023,
+            "duration": "103 min",
+            "genre": ["Comedy", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Anyone+But+You",
+            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
         }
     ],
     "series": [
         {
-            "id": "",
-            "title": "",
-            "synopsis": "",
-            "year": "",
-            "genre": [""],
-            "thumbnail": "",
+            "id": "s-001",
+            "title": "The Last of Us",
+            "synopsis": "Dua puluh tahun setelah peradaban hancur akibat jamur mematikan, seorang pria harus menyelundupkan gadis muda yang kebal melintasi Amerika.",
+            "year": 2023,
+            "genre": ["Action", "Horror", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=The+Last+of+Us",
             "seasons": [
                 {
                     "season_number": 1,
                     "episodes": [
                         {
-                            "id": "",
-                            "episode_number": "",
-                            "title": "",
-                            "duration": "",
-                            "thumbnail": "",
-                            "video_url": ""
+                            "id": "e-001",
+                            "episode_number": 1,
+                            "title": "When You're Lost in the Darkness",
+                            "duration": "81 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=TLOU+Eps+1",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
                         },
                         {
-                            "id": "",
-                            "episode_number": "",
-                            "title": "",
-                            "duration": "",
-                            "thumbnail": "",
-                            "video_url": ""
+                            "id": "e-002",
+                            "episode_number": 2,
+                            "title": "Infected",
+                            "duration": "53 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=TLOU+Eps+2",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-003",
+                            "episode_number": 3,
+                            "title": "Long, Long Time",
+                            "duration": "75 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=TLOU+Eps+3",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s-002",
+            "title": "Arcane",
+            "synopsis": "Kisah asal usul dua juara ikonik League of Legends yang terpisah di dua kota berseteru, Piltover dan Zaun.",
+            "year": 2021,
+            "genre": ["Cartoon", "Action", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Arcane",
+            "seasons": [
+                {
+                    "season_number": 1,
+                    "episodes": [
+                        {
+                            "id": "e-004",
+                            "episode_number": 1,
+                            "title": "Welcome to the Playground",
+                            "duration": "43 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=Arcane+Eps+1",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-005",
+                            "episode_number": 2,
+                            "title": "Some Mysteries Are Better Left Unsolved",
+                            "duration": "41 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=Arcane+Eps+2",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-006",
+                            "episode_number": 3,
+                            "title": "The Base Violence Necessary for Change",
+                            "duration": "44 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=Arcane+Eps+3",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s-003",
+            "title": "The Bear",
+            "synopsis": "Seorang koki muda dari dunia kuliner fine dining pulang ke Chicago untuk mengelola kedai sandwich keluarganya.",
+            "year": 2022,
+            "genre": ["Comedy", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=The+Bear",
+            "seasons": [
+                {
+                    "season_number": 1,
+                    "episodes": [
+                        {
+                            "id": "e-007",
+                            "episode_number": 1,
+                            "title": "System",
+                            "duration": "27 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=The+Bear+Eps+1",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-008",
+                            "episode_number": 2,
+                            "title": "Hands",
+                            "duration": "29 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=The+Bear+Eps+2",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-009",
+                            "episode_number": 3,
+                            "title": "Brigade",
+                            "duration": "28 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=The+Bear+Eps+3",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s-004",
+            "title": "Stranger Things",
+            "synopsis": "Sekelompok remaja menghadapi fenomena supranatural dan eksperimen rahasia pemerintah di kota kecil Hawkins.",
+            "year": 2016,
+            "genre": ["Horror", "Drama", "Action"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=Stranger+Things",
+            "seasons": [
+                {
+                    "season_number": 1,
+                    "episodes": [
+                        {
+                            "id": "e-010",
+                            "episode_number": 1,
+                            "title": "Chapter One: The Vanishing of Will Byers",
+                            "duration": "47 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=ST+Eps+1",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-011",
+                            "episode_number": 2,
+                            "title": "Chapter Two: The Weirdo on Maple Street",
+                            "duration": "55 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=ST+Eps+2",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-012",
+                            "episode_number": 3,
+                            "title": "Chapter Three: Holly, Jolly",
+                            "duration": "51 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=ST+Eps+3",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "s-005",
+            "title": "House of the Dragon",
+            "synopsis": "Kisah klan Targaryen 200 tahun sebelum peristiwa Game of Thrones yang berujung pada perang saudara raksasa.",
+            "year": 2022,
+            "genre": ["Action", "Drama"],
+            "thumbnail": "https://dummyimage.com/300x450/000/fff&text=House+of+the+Dragon",
+            "seasons": [
+                {
+                    "season_number": 1,
+                    "episodes": [
+                        {
+                            "id": "e-013",
+                            "episode_number": 1,
+                            "title": "The Heirs of the Dragon",
+                            "duration": "66 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=HOTD+Eps+1",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-014",
+                            "episode_number": 2,
+                            "title": "The Rogue Prince",
+                            "duration": "54 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=HOTD+Eps+2",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+                        },
+                        {
+                            "id": "e-015",
+                            "episode_number": 3,
+                            "title": "Second of His Name",
+                            "duration": "63 min",
+                            "thumbnail": "https://dummyimage.com/300x170/000/fff&text=HOTD+Eps+3",
+                            "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
                         }
                     ]
                 }
