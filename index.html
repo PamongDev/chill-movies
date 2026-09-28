@@ -3,269 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chill</title>
+    <meta name="description" content="Chill - Movie and series streaming platform.">
+    <title>Chill — Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
-    <header>
-        <div class="container-navbar">
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-item"><a href="#"><img src="logo.png" alt="Chill Logo" srcset=""></a></li>
-                    <li class="navbar-item"><a href="#">Series</a></li>
-                    <li class="navbar-item"><a href="#">Movies</a></li>
-                    <li class="navbar-item"><a href="#">My List</a></li>
-                    <li class="navbar-item"><a href="#">Search</a></li>
-                    <li class="navbar-item"><a href="#">My Profile</a></li>
-                </ul>
+    <header class="site-header">
+        <div class="container navbar-wrap">
+            <nav class="navbar" aria-label="Main navigation">
+                <a class="brand" href="#" aria-label="Chill home">
+                    <img src="assets/images/main/logo only no bg.png" alt="Chill">
+                </a>
+
+                <div class="desktop-nav">
+                    <a href="#">Home</a>
+                    <a href="#movies">Movies</a>
+                    <a href="#series">Series</a>
+                    <a href="#my-list">My List</a>
+                </div>
+
+                <div class="nav-actions">
+                    <button class="icon-button" type="button" aria-label="Search">
+                        <span aria-hidden="true">⌕</span>
+                    </button>
+                    <a class="profile-link" href="#profile">My Profile</a>
+                </div>
             </nav>
         </div>
     </header>
-    <main>
-        <div class="container-main">
-            <section class="hero-section">
-                <div class="preview-movie-overlay"> #dibuat overlay di atas video preview movie, untuk menampilkan title, genre, synopsis, button watch now dan add to my list
-                    <video src="movie-trailer.mp4" controls></video>
-                    <button class="mute"></button>
-                <div class="movie-pack">
-                    <div class="movie-title">Movie Title</div>
-                    <div class="movie-main-genre">Action Comedy</div>
-                    <div class="movie-synopsis">This is a brief synopsis of the movie. (2 lines max continue with ...)</div>
-                    <div class="button-watch"><button>Watch Now</button></div>
-                    <div class="add-my-list"><button>Add to My List</button></div>
-                </div>
-                </div>
-            </section>
-            <section class="continue-watching-list">
-                <h2>Continue Watching</h2>
-                <div class="continue-watching-list">
-                    <div class="movie-card">
-                        <div class="poster">
-                            <p class="hidden">Movie Title</p>
-                            <img src="movie-poster.jpg" alt="Movie Poster">
-                        </div>
-                        <!-- also bisa dibuat hover preview, ketika mouse hover di poster movie, maka akan muncul preview movie, button mute, button play, button add to my list, button like, dan detail movie seperti durasi, rating, tahun rilis, genre, di klik ke halaman detail movie-->
-                        <div class="hover-preview"> 
-                            <video src="movie-trailer.mp4" controls></video>
-                            <button class="mute"></button>
-                            <button class="play"></button>
-                            <button class="add-my-list"></button>
-                            <button class="like"></button>
-                            <div class="movie-min-detail">
-                                <div class="duration">2h 15m</div>
-                                <div class="rating">PG-13</div>
-                                <div class="year">2026</div>
-                                <div class="genre">Action, Comedy</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="movie-card">
-                        <div class="poster">
-                            <p class="hidden">Movie Title</p>
-                            <img src="movie-poster.jpg" alt="Movie Poster">
-                        </div>
-                        <!-- also bisa dibuat hover preview, ketika mouse hover di poster movie, maka akan muncul preview movie, button mute, button play, button add to my list, button like, dan detail movie seperti durasi, rating, tahun rilis, genre, di klik ke halaman detail movie-->
-                        <div class="hover-preview"> 
-                            <video src="movie-trailer.mp4" controls></video>
-                            <button class="mute"></button>
-                            <button class="play"></button>
-                            <button class="add-my-list"></button>
-                            <button class="like"></button>
-                            <div class="movie-min-detail">
-                                <div class="duration">2h 15m</div>
-                                <div class="rating">PG-13</div>
-                                <div class="year">2026</div>
-                                <div class="genre">Action, Comedy</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="top-movies-series-list">
-                <h2>Top Movies & Series</h2>
-                <div class="top-movies-series-list">
-                    <div class="movie-card">
-                        <div class="poster">
-                            <p class="hidden">Movie Title</p>
-                            <img src="movie-poster.jpg" alt="Movie Poster">
-                        </div>
-                        <!-- also bisa dibuat hover preview, ketika mouse hover di poster movie, maka akan muncul preview movie, button mute, button play, button add to my list, button like, dan detail movie seperti durasi, rating, tahun rilis, genre, di klik ke halaman detail movie-->
-                        <div class="hover-preview"> 
-                            <video src="movie-trailer.mp4" controls></video>
-                            <button class="mute"></button>
-                            <button class="play"></button>
-                            <button class="add-my-list"></button>
-                            <button class="like"></button>
-                            <div class="movie-min-detail">
-                                <div class="duration">2h 15m</div>
-                                <div class="rating">PG-13</div>
-                                <div class="year">2026</div>
-                                <div class="genre">Action, Comedy</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="movie-card">
-                        <div class="poster">
-                            <p class="hidden">Movie Title</p>
-                            <img src="movie-poster.jpg" alt="Movie Poster">
-                        </div>
-                        <!-- also bisa dibuat hover preview, ketika mouse hover di poster movie, maka akan muncul preview movie, button mute, button play, button add to my list, button like, dan detail movie seperti durasi, rating, tahun rilis, genre, di klik ke halaman detail movie-->
-                        <div class="hover-preview"> 
-                            <video src="movie-trailer.mp4" controls></video>
-                            <button class="mute"></button>
-                            <button class="play"></button>
-                            <button class="add-my-list"></button>
-                            <button class="like"></button>
-                            <div class="movie-min-detail">
-                                <div class="duration">2h 15m</div>
-                                <div class="rating">PG-13</div>
-                                <div class="year">2026</div>
-                                <div class="genre">Action, Comedy</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="trending-list">
-                <h2>Trending Now</h2>
-                <div class="trending-list">
-                    <div class="movie-card">
-                        <div class="poster">
-                            <p class="hidden">Movie Title</p>
-                            <img src="movie-poster.jpg" alt="Movie Poster">
-                        </div>
-                        <!-- also bisa dibuat hover preview, ketika mouse hover di poster movie, maka akan muncul preview movie, button mute, button play, button add to my list, button like, dan detail movie seperti durasi, rating, tahun rilis, genre, di klik ke halaman detail movie-->
-                        <div class="hover-preview"> 
-                            <video src="movie-trailer.mp4" controls></video>
-                            <button class="mute"></button>
-                            <button class="play"></button>
-                            <button class="add-my-list"></button>
-                            <button class="like"></button>
-                            <div class="movie-min-detail">
-                                <div class="duration">2h 15m</div>
-                                <div class="rating">PG-13</div>
-                                <div class="year">2026</div>
-                                <div class="genre">Action, Comedy</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="movie-card">
-                        <div class="poster">
-                            <p class="hidden">Movie Title</p>
-                            <img src="movie-poster.jpg" alt="Movie Poster">
-                        </div>
-                        <!-- also bisa dibuat hover preview, ketika mouse hover di poster movie, maka akan muncul preview movie, button mute, button play, button add to my list, button like, dan detail movie seperti durasi, rating, tahun rilis, genre, di klik ke halaman detail movie-->
-                        <div class="hover-preview"> 
-                            <video src="movie-trailer.mp4" controls></video>
-                            <button class="mute"></button>
-                            <button class="play"></button>
-                            <button class="add-my-list"></button>
-                            <button class="like"></button>
-                            <div class="movie-min-detail">
-                                <div class="duration">2h 15m</div>
-                                <div class="rating">PG-13</div>
-                                <div class="year">2026</div>
-                                <div class="genre">Action, Comedy</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="new-realeases-movies">
-                <h2>New Releases</h2>
-                <div class="new-releases-movies">
-                    <div class="movie-card">
-                        <div class="poster">
-                            <p class="hidden">Movie Title</p>
-                            <img src="movie-poster.jpg" alt="Movie Poster">
-                        </div>
-                        <!-- also bisa dibuat hover preview, ketika mouse hover di poster movie, maka akan muncul preview movie, button mute, button play, button add to my list, button like, dan detail movie seperti durasi, rating, tahun rilis, genre, di klik ke halaman detail movie-->
-                        <div class="hover-preview"> 
-                            <video src="movie-trailer.mp4" controls></video>
-                            <button class="mute"></button>
-                            <button class="play"></button>
-                            <button class="add-my-list"></button>
-                            <button class="like"></button>
-                            <div class="movie-min-detail">
-                                <div class="duration">2h 15m</div>
-                                <div class="rating">PG-13</div>
-                                <div class="year">2026</div>
-                                <div class="genre">Action, Comedy</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="movie-card">
-                        <div class="poster">
-                            <p class="hidden">Movie Title</p>
-                            <img src="movie-poster.jpg" alt="Movie Poster">
-                        </div>
-                        <!-- also bisa dibuat hover preview, ketika mouse hover di poster movie, maka akan muncul preview movie, button mute, button play, button add to my list, button like, dan detail movie seperti durasi, rating, tahun rilis, genre, di klik ke halaman detail movie-->
-                        <div class="hover-preview"> 
-                            <video src="movie-trailer.mp4" controls></video>
-                            <button class="mute"></button>
-                            <button class="play"></button>
-                            <button class="add-my-list"></button>
-                            <button class="like"></button>
-                            <div class="movie-min-detail">
-                                <div class="duration">2h 15m</div>
-                                <div class="rating">PG-13</div>
-                                <div class="year">2026</div>
-                                <div class="genre">Action, Comedy</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-        </div>
-    </main>
-    <footer>
-        <section class="footer-links">
-            <div class="logo-copyright">
-                <img src="logo.png" alt="Chill Logo" srcset="">
-                <p>© 2026 Chill. All rights reserved.</p>
-            </div>
-            <div class="container-genres">
-                <div class="row">
-                    <h3>Genres</h3>
-                        <div class="col">
-                            <ul>
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Comedy</a></li>
-                                <li><a href="#">Drama</a></li>
-                                <li><a href="#">Horror</a></li>
-                                <li><a href="#">Romance</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul>
-                                <li><a href="#">Sci-Fi</a></li>
-                                <li><a href="#">Thriller</a></li>
-                                <li><a href="#">Documentary</a></li>
-                                <li><a href="#">Animation</a></li>
-                                <li><a href="#">Fantasy</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <ul>
-                                <li><a href="#">Mystery</a></li>
-                                <li><a href="#">Adventure</a></li>
-                                <li><a href="#">Crime</a></li>
-                                <li><a href="#">Family</a></li>
-                                <li><a href="#">Others</a></li>
-                            </ul>
-                        </div>
-                    <h3>Need Help?</h3>
-                    <div class="col">
-                        <ul>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                        </ul>
-                    </div>
+    <main>
+        <section class="hero" aria-label="Featured movie">
+            <video
+                class="hero-video"
+                src="assets/videos/trailer-movies/t1_dp2-compress.mp4"
+                poster="assets/images/poster-movies/1_poster dune2.jpg"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+            ></video>
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <p class="hero-kicker">CHILL ORIGINAL EXPERIENCE</p>
+                <h1 class="hero-title">Dune: Part Two</h1>
+                <div class="hero-meta">
+                    <span>2024</span>
+                    <span>PG-13</span>
+                    <span>2h 46m</span>
+                    <span>Action</span>
+                    <span>Adventure</span>
+                </div>
+                <p class="hero-description">
+                    Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#">▶ Watch Now</a>
+                    <button class="button button-secondary" type="button">＋ My List</button>
                 </div>
             </div>
         </section>
+
+        <div class="container page-content">
+            <section class="movie-section" id="movies" aria-labelledby="continue-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-eyebrow">KEEP WATCHING</p>
+                        <h2 id="continue-title">Continue Watching</h2>
+                    </div>
+                    <a class="section-link" href="#">See All <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="movie-row" id="continue-watching-row"></div>
+            </section>
+
+            <section class="movie-section" aria-labelledby="top-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-eyebrow">POPULAR RIGHT NOW</p>
+                        <h2 id="top-title">Top Movies &amp; Series</h2>
+                    </div>
+                    <a class="section-link" href="#">See All <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="movie-row" id="top-movies-row"></div>
+            </section>
+
+            <section class="movie-section" aria-labelledby="trending-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-eyebrow">WHAT PEOPLE ARE WATCHING</p>
+                        <h2 id="trending-title">Trending Now</h2>
+                    </div>
+                    <a class="section-link" href="#">See All <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="movie-row" id="trending-row"></div>
+            </section>
+
+            <section class="movie-section" id="series" aria-labelledby="release-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-eyebrow">JUST ADDED</p>
+                        <h2 id="release-title">New Releases</h2>
+                    </div>
+                    <a class="section-link" href="#">See All <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="movie-row" id="new-releases-row"></div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <img src="assets/images/main/logo only no bg.png" alt="Chill">
+                <p>© 2026 Chill. All rights reserved.</p>
+                <p class="footer-muted">Your place to relax, discover, and watch.</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Genres</h3>
+                <div class="footer-links-grid">
+                    <a href="#">Action</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Horror</a>
+                    <a href="#">Romance</a>
+                    <a href="#">Sci-Fi</a>
+                    <a href="#">Thriller</a>
+                    <a href="#">Documentary</a>
+                    <a href="#">Animation</a>
+                    <a href="#">Fantasy</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Need Help?</h3>
+                <div class="footer-links-list">
+                    <a href="#">Contact Us</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="script/main.js" defer></script>
 </body>
 </html>
