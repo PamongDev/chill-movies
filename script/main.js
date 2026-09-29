@@ -216,6 +216,25 @@ const fallbackMovies = [
         genres: ["Action", "Crime"],
     },
 ];
+const heroVideo = document.querySelector(".hero-video");
+const heroMuteButton = document.querySelector(".hero-mute-button");
+const heroMuteIcon = document.querySelector(".hero-mute-icon");
+
+if (heroVideo && heroMuteButton && heroMuteIcon) {
+    heroMuteButton.addEventListener("click", () => {
+        heroVideo.muted = !heroVideo.muted;
+
+        if (heroVideo.muted) {
+            heroMuteIcon.textContent = "🔇";
+            heroMuteButton.setAttribute("aria-label", "Unmute trailer");
+            heroMuteButton.setAttribute("aria-pressed", "true");
+        } else {
+            heroMuteIcon.textContent = "🔊";
+            heroMuteButton.setAttribute("aria-label", "Mute trailer");
+            heroMuteButton.setAttribute("aria-pressed", "false");
+        }
+    });
+}
 
 function normalizeMovie(movie, index) {
     return {
